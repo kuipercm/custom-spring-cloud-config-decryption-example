@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri: https://github.com/kuipercm/spring-cloud-config-server-configuration.git
+          clone-on-start: true
+          search-paths: '{application}'
+info:
+  app:
+    name: custom-password-configuration-server

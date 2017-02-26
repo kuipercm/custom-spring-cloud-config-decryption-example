@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: custom-password-decryption-server
+  profiles:
+    active: dev
+server:
+  port: 48080

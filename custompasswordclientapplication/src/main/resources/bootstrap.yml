@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: custom-password-decryption-client
+  profiles:
+    active: dev
+  cloud:
+    config:
+      uri: http://localhost:48080
+server:
+  port: 48081
