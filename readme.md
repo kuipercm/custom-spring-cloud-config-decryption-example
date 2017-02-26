@@ -12,7 +12,7 @@ client application. Doesn't decrypt encrypted values.
 * **the decryption library**: contains the encryption/decryption
 algorithm and required setup to do autconfiguration in the client
 
-For a more thorough explanation read the blog post at .
+For a more thorough explanation read the blog post at https://github.com/kuipercm/custom-spring-cloud-config-decryption-example.
 
 ## To run this code
 
